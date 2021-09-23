@@ -1,0 +1,17 @@
+{
+    "name": "SLOVARonline",
+    "description": "SLOVARonline - the largest dictionaries database online",
+    "version": "1.0",
+    "manifest_version": 2,
+    "icons": {
+        "128": "128.png"
+    },
+    "browser_action": {
+        "default_title": "Открыть сайт slovaronline.com в новой вкладке",
+        "default_icon" : "128.png"
+    },
+    "permissions": ["tabs"],
+    "background":{
+        "scripts": ["background.js"]
+    }
+}
