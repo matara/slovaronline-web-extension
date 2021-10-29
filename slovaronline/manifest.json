@@ -1,7 +1,7 @@
 {
     "name": "SLOVARonline",
-    "description": "SLOVARonline - the largest dictionaries database online",
-    "version": "1.0",
+    "description": "Quick search by the largest database of dictionaries online | SLOVARonline.com",
+    "version": "1.1",
     "manifest_version": 2,
     "icons": {
         "16": "icon-16x16.png",
@@ -13,7 +13,7 @@
         "default_icon" : "icon-128x128.png",
         "default_popup": "public/index.html"
     },
-    "permissions": ["tabs"],
+    "permissions": [],
     "background":{
         "scripts": ["background.js"]
     }
